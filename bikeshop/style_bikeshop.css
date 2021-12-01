@@ -1,0 +1,222 @@
+html {
+  background-image: linear-gradient(#FC5E55 ,#FA4083);
+}
+
+body {
+  background-image: url(images_bikeshop/image-lion-background.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 1.125rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  width: 1024px;
+  min-height: 300px;
+  margin: 0px auto 0px auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px 50px 0px;
+  border-bottom: 1px solid lightgray;
+}
+
+main {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.main2 {
+  min-height: 300px;
+  padding: 50px 0px 0px 0px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.card1 {
+  background-image: url(images_bikeshop/image-background-card1.jpg);
+  background-size: cover;
+  background-position: bottom;
+  min-height: 250px;
+  width: 30%;
+}
+
+.card2 {
+  background-image: url(images_bikeshop/image-background-card2.jpg);
+  background-size: cover;
+  background-position: bottom;
+  min-height: 250px;
+  width: 30%;
+}
+
+.card3 {
+  background-image: url(images_bikeshop/image-background-card3.jpg);
+  background-size: cover;
+  background-position: bottom;
+  min-height: 250px;
+  width: 30%;
+}
+
+.card1, .card2, .card3 {
+  padding: 30px 30px 20px 30px;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.329);
+}
+
+.herobox1 {
+  flex: 2;
+  padding: 0rem 100px 0rem 0rem;
+}
+
+.herobox2 {
+  flex: 1;
+}
+
+h1 {
+  font-size: 3.25rem;
+  color: rgb(255, 255, 255);
+  font-family: 'Playfair Display', serif;
+  margin: 0rem 0rem 1rem 0rem;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.329);
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: 'Playfair Display', serif;
+  margin: 20px 0px 0px 0px;
+}
+
+p {
+  line-height: 1.75rem;
+  margin: 0rem 0rem 0.5rem 0rem;
+}
+
+.cards p {
+  font-size: 0.85rem;
+  line-height: 1.2rem;
+  margin: 10px 0px 0px 0px;
+}
+
+i {
+  font-size: 100px;
+  padding: 30px 0px 0px 0px;
+}
+
+.cards a  {
+  color: white;
+  text-decoration: none;
+}
+
+.mybutton {
+  background-color: white;
+  color: #FA4083;
+  font-family: 'Playfair Display', serif;
+  padding: 11px 25px;
+  display: inline-block;
+  margin: 20px 0px 0px 0px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.329);
+}
+
+.mybutton:hover {
+  background-color: rgb(206, 255, 109);
+  transition-duration: 1s;
+}
+
+nav a.navbutton {
+  margin: 0px 0px 0px 30px;
+}
+
+.navbutton {
+  font-family: 'Playfair Display', serif;
+  border: 1px solid white;
+  padding: 11px 25px;
+  display: inline-block;
+  position: relative;
+}
+
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px 0px 100px 0px;
+}
+
+.tbox {
+  width: 47%;
+  padding: 50px;
+  border: 1px solid white;
+  box-sizing: border-box;
+  margin: 50px 0px 0px 0px;
+}
+
+.tbox p:last-of-type {
+  font-size: 0.8em;
+  padding: 0px 0px 0px 30px;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  padding: 20px 0px 0px 0px;
+  margin: 0px 0px 0px -26px;
+  text-align: center;
+  
+}
+
+.navbutton:hover .dropdown {
+  display: block;
+}
+
+.dropdown .navbutton {
+  width: 120px;
+  background-color: white;
+}
+
+.dropdown .navbutton a {
+  color: rgb(232, 90, 114);
+}
+
+.inputwrapper {
+  margin: 0px 0px 30px 0px;
+}
+
+input[type=text], input[type=email], textarea {
+  padding: 12px 20px;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.85rem;
+  box-sizing: border-box;
+}
+
+input[type=radio] {
+  margin: 0px 10px 0px 0px;
+}
+
+.newline {
+  display: block;
+  margin: 0px 0px 10px 0px;
+}
+
+.margin-right-a {
+  margin: 0px 20px 0px 0px;
+}
+
+form {
+  margin: 40px 0px;
+}
